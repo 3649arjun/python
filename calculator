@@ -1,0 +1,16 @@
+a = int(input("enter first no:>"))
+b = int(input("enter 2nd no:>"))
+c =input("enter the operation you want to do(+:-:/:*):>")
+if (c=='+'):
+    print (f"your output is {a+b}")
+elif (c =='-'):
+    if (a>b):
+        print(f"your output is {a-b}")
+    else:
+        print(f"your output is {b-a}")
+elif(c =='/'):
+     print(f"your output is {a/b}")
+elif (c=='*'):
+     print(f"your output is {a*b}")
+else:
+    print("wrong value")
